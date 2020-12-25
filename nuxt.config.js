@@ -18,7 +18,12 @@ export default {
       meta: [
          { charset: 'utf-8' },
          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-         { hid: 'description', name: 'description', content: 'Everything You Need To Run Your Freelance Business.' },
+         { hid: 'title', name: 'title', content: 'Qena App' },
+         {
+            hid: 'description',
+            name: 'description',
+            content: 'Qena App - Everything You Need To Run Your Freelance Business.',
+         },
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
    },

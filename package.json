@@ -8,7 +8,8 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "git": "git add . && git commit -m",
-    "postgit": "git push -u origin master"
+    "postgit": "git push -u origin master",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.0.2",
