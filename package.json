@@ -6,7 +6,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "git": "git add . && git commit -m",
+    "postgit": "git push -u origin master"
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.0.2",
