@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/task-management", {data:[{}],fetch:[],mutations:void 0});

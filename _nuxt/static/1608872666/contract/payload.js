@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/contract", {data:[{}],fetch:[],mutations:void 0});

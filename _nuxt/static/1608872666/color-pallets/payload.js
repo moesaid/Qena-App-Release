@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/color-pallets", {data:[{}],fetch:[],mutations:void 0});
