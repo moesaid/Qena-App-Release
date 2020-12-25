@@ -2,13 +2,23 @@ export default {
    // Target (https://go.nuxtjs.dev/config-target)
    target: 'static',
 
+   googleAnalytics: {
+      id: 'G-WBYP3VW60T',
+      dev: false,
+   },
+
    // Global page headers (https://go.nuxtjs.dev/config-head)
    head: {
-      title: 'qena',
+      title: 'Qena App',
+      titleTemplate: 'Everything You Need To Run Your Freelance Business.',
+      htmlAttrs: {
+         lang: 'en',
+         amp: true,
+      },
       meta: [
          { charset: 'utf-8' },
          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-         { hid: 'description', name: 'description', content: '' },
+         { hid: 'description', name: 'description', content: 'Everything You Need To Run Your Freelance Business.' },
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
    },
@@ -28,6 +38,7 @@ export default {
    buildModules: [
       // https://go.nuxtjs.dev/tailwindcss
       '@nuxtjs/tailwindcss',
+      '@nuxtjs/google-analytics',
    ],
 
    // Modules (https://go.nuxtjs.dev/config-modules)
