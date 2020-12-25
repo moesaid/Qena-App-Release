@@ -8,6 +8,7 @@
 
             <div class="pt-24 px-10 grid lg:grid-cols-3 gap-10">
                <a
+                  target="_blank"
                   class="bg-black text-white text-xl py-4 rounded font-bold capitalize flex justify-center items-center"
                   href="https://github.com/moesaid/Qena-App-Release/releases/download/untagged-976f90f5d7eb5a13b5bc/Qena-0.1.0-mac.zip"
                >
@@ -15,6 +16,7 @@
                   macOS
                </a>
                <a
+                  target="_blank"
                   class="bg-black text-white text-xl py-4 rounded font-bold capitalize flex justify-center items-center"
                   href="https://github.com/moesaid/Qena-App-Release/releases/download/untagged-976f90f5d7eb5a13b5bc/Qena-Setup-0.1.0.exe"
                >
@@ -22,6 +24,7 @@
                   windows
                </a>
                <a
+                  target="_blank"
                   class="bg-black text-white text-xl py-4 rounded font-bold capitalize flex justify-center items-center"
                   href="https://github.com/moesaid/Qena-App-Release/releases/download/untagged-976f90f5d7eb5a13b5bc/Qena-0.1.0.AppImage"
                >
